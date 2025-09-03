@@ -1,5 +1,9 @@
 # consumableai-aeo
 
+[![PyPI version](https://badge.fury.io/py/consumableai-aeo.svg)](https://pypi.org/project/consumableai-aeo/)
+[![PyPI downloads](https://img.shields.io/pypi/dm/consumableai-aeo.svg)](https://pypi.org/project/consumableai-aeo/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 **AEO/GEO** (Answer Engine Optimization / Generative Engine Optimization) helper for quick audits and lightweight keyword discovery.
 
 - `audit <url>`: Inspect basic **AEO/GEO** signals — title, description, robots, canonical, JSON-LD types, OG/Twitter tags, headings, readability proxy.
@@ -7,6 +11,8 @@
 - `competitors <url1> <url2> ...`: Aggregate and compare **competitor keywords** across multiple URLs.
 
 > Built by [Consumable AI](https://www.consumableai.com) — tools for **AI SEO analyser**, **AEO**, **GEO**, **organic growth**, **marketing intelligence**, and **CAC reduction**.
+
+git s**📦 Available on [PyPI](https://pypi.org/project/consumableai-aeo/)**
 
 ---
 
