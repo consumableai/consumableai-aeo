@@ -19,8 +19,8 @@ pip install consumableai-aeo
 ## CLI Usage
 
 ```bash
-consumableai-aeo audit https://example.com --json
-consumableai-aeo keywords https://example.com --top 25
+consumableai-aeo audit https://www.consumableai.com --json
+consumableai-aeo keywords https://www.consumableai.com --top 25
 consumableai-aeo competitors https://site-a.com/page https://site-b.com/page --top 20 --json
 ```
 
@@ -29,8 +29,8 @@ consumableai-aeo competitors https://site-a.com/page https://site-b.com/page --t
 ```python
 from consumableai_aeo import audit_url, keywords_from_url, competitor_keywords
 
-report = audit_url("https://example.com")
-phrases = keywords_from_url("https://example.com", top_n=25)
+report = audit_url("https://www.consumableai.com")
+phrases = keywords_from_url("https://www.consumableai.com", top_n=25)
 comp = competitor_keywords(["https://a.com", "https://b.com"], top_n=20)
 ```
 
